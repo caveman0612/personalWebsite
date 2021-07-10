@@ -1,0 +1,207 @@
+:root {
+  --primary: #dddddd;
+  --dark: #333;
+  --light: #fff;
+  --dark_blue: #003A99;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.5);
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--primary);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* header section --------- */
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 3em;
+  padding: 1em;
+  border-bottom: var(--dark_blue) 5px solid;
+}
+
+header img {
+  width: 300px;
+}
+
+.link a {
+  text-decoration: none;
+  color: black;
+  border: 2px black solid;
+  border-radius: 2em;
+  padding: .8em;
+}
+
+.rental {
+  font-weight: 1000;
+}
+
+.link a:hover {
+  background-color: black;
+  color: var(--primary);
+}
+
+.top_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5em;
+  margin-top: 5em;
+  border: var(--dark_blue) 3px solid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60vw;
+  border-radius: 3em;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.rental_description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rental_description p {
+  margin: 0;
+  width: 800px;
+  text-align: center;
+}
+
+.rental_rates {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 3em;
+  padding: 2em;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.rental_box {
+  border: solid var(--dark_blue) 3px;
+  padding: 0 1em;
+  border-radius: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.rental_box h2 {
+  text-align: center;
+  margin-bottom: .2em;
+}
+
+.rental_box p {
+  margin-top: 0;
+  text-align: center;
+}
+
+.bottom_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bottom_section img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60vw;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3em;
+  border-top: solid var(--dark_blue) 5px;
+  padding-top: 2em;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-bottom: 2em;
+}
+
+.left_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.left_footer img {
+  width: 300px;
+  padding: .5em;
+}
+
+.right_footer li {
+  padding: .3em;
+}
+
+@media (max-width: 900px) {
+  .NC_logo {
+    display: none;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .rental_description p {
+    width: auto;
+  }
+}
+
+@media (max-width: 1300px) {
+  .rental_description p {
+    width: 400px;
+  }
+}
+/*# sourceMappingURL=rentals.css.map */
