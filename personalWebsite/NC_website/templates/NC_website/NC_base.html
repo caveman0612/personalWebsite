@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    {% load static %}
+    <link rel="stylesheet" href="{% static "NC_website/styles/NC_base.css" %}">
+
     {% block head %}
 
     {% endblock %}
@@ -23,13 +26,13 @@
             <a href="/NC_website/rentals/">Rental</a>
         </div>
         <div class="link">
-            <a href="/NC_website/">Services</a>
+            <a href="/NC_website/services">Services</a>
         </div>
         <div class="link">
-            <a href="/NC_website/">Events</a>
+            <a href="/NC_website/events">Events</a>
         </div>
         <div class="link">
-            <a href="/NC_website/">Contact</a>
+            <a href="/NC_website/contact">Contact</a>
         </div>
     </header>
     

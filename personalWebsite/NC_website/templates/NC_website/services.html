@@ -1,37 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/services.css">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <a href="/html/home1.html" class="NC_logo">
-            <img src="../images/NC_Logo2.jpg" alt="northern cycle logo">
-        </a>
-        <div class="link home">
-            <a href="/html/home1.html">Home</a>
-        </div>
-        <div class="link rental">
-            <a href="/html/rentals.html">Rental</a>
-        </div>
-        <div class="link services">
-            <a href="/html/services.html">Services</a>
-        </div>
-        <div class="link events">
-            <a href="/html/events.html">Events</a>
-        </div>
-        <div class="link contact">
-            <a href="/html/contact.html">Contact</a>
-        </div>
-        <div class="burger_icon">
+{% extends "NC_website/NC_base.html" %}
 
-        </div>
-    </header>
-    <section class="top_section">
+{% block head %}
+
+{% load static %}
+<link rel="stylesheet" href="{% static "NC_website/styles/services.css" %}">
+<title>Document</title>
+
+{% endblock %}
+
+
+
+{% block body %}
+
+<section class="top_section">
         <div class="services_box">
             <div class="service_title_area">
                 <h1 class="services_title">Services</h1>
@@ -110,42 +91,5 @@
         
     </section>
 
-    <footer>
-        <div class="left_footer">
-            <div class="facebook_img">
-                <a href="https://www.facebook.com/Northern-Cycle-408908525871199/">
-                    <img src="../images/fbicon.jpg" alt="facebook logo">
-                </a>
-            </div>
-        </div>
-        <div class="right_footer">
-            <h1>Related Resources</h1>
-            <ul>
-                <li>
-                    <a href="http://itascatur.org/">Itascatur Outdoor Activity Club</a>
-                </li>
-                <li>
-                    <a href="https://detroitmountain.com/">Detroit Mountain Activity Area</a>
-                </li>
-                <li>
-                    <a href="https://www.cuyunalakesmtb.com/">Cuyuna Lakes Mountain Bike Club</a>
-                </li>
-                <li>
-                    <a href="http://www.bikebemidji.com/">Bemidji Area Biking</a>
-                </li>
-                <li>
-                    <a href="https://www.paulbunyantrail.com/">Paul Bunyan Trail</a>
-                </li>
-                <li>
-                    <a href="https://mntrails.com/poi/heartland-trail">Heartland Trail</a>
-                </li>
-                <li>
-                    <a href="https://www.peopleforbikes.org/">Bikes Belong</a>
-                </li>
-            </ul>
-        </div>
+{% endblock %}
 
-    </footer>
-    
-</body>
-</html>

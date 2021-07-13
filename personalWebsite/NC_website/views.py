@@ -6,3 +6,12 @@ def home (response):
 
 def rentals (response):
     return render(response, "NC_website/rentals.html")
+
+def services (response):
+    return render(response, "NC_website/services.html")
+
+def events (response):
+    return render(response, "NC_website/events.html")
+
+def contact (response):
+    return render(response, "NC_website/contact.html")
