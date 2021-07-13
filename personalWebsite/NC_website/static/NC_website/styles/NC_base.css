@@ -40,10 +40,7 @@ header img {
     padding: .8em;
 }
 
-.home {
-    font-weight: 1000;
-    
-}
+
 
 .link a:hover {
     background-color: black;
@@ -67,9 +64,4 @@ footer {
 .left_footer img {
     width: 300px;
     padding: .5em;
-}
-
-
-.right_footer {
-    
 }

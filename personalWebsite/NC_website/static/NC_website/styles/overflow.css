@@ -1,0 +1,51 @@
+:root {
+  --primary: #dddddd;
+  --dark: #333;
+  --light: #fff;
+  --dark_blue: #003A99;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.5);
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--primary);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* header section --------- */
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 3em;
+  padding: 1em;
+  border-bottom: var(--dark_blue) 5px solid;
+}
+
+header img {
+  width: 300px;
+}
+
+.link a {
+  text-decoration: none;
+  color: black;
+  border: 2px black solid;
+  border-radius: 2em;
+  padding: .8em;
+}
+
+.link a:hover {
+  background-color: black;
+  color: var(--primary);
+}

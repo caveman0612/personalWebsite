@@ -1,59 +1,3 @@
-:root {
-  --primary: #dddddd;
-  --dark: #333;
-  --light: #fff;
-  --dark_blue: #003A99;
-  --shadow: 0 1px 5px rgba(104, 104, 104, 0.5);
-}
-
-html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--primary);
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-/* header section --------- */
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 3em;
-  padding: 1em;
-  border-bottom: var(--dark_blue) 5px solid;
-}
-
-header img {
-  width: 300px;
-}
-
-.link a {
-  text-decoration: none;
-  color: black;
-  border: 2px black solid;
-  border-radius: 2em;
-  padding: .8em;
-}
-
-.rental {
-  font-weight: 1000;
-}
-
-.link a:hover {
-  background-color: black;
-  color: var(--primary);
-}
-
 .top_wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -146,37 +90,6 @@ header img {
   width: 60vw;
 }
 
-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 3em;
-  border-top: solid var(--dark_blue) 5px;
-  padding-top: 2em;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  padding-bottom: 2em;
-}
-
-.left_footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.left_footer img {
-  width: 300px;
-  padding: .5em;
-}
-
-.right_footer li {
-  padding: .3em;
-}
 
 @media (max-width: 900px) {
   .NC_logo {
