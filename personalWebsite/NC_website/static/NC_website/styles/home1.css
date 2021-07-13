@@ -1,54 +1,4 @@
-:root {
-    --primary: #dddddd;
-    --dark: #333;
-    --light: #fff;
-    --dark_blue: #003A99;
-    --shadow: 0 1px 5px rgba(104, 104, 104, 0.5);
-}
 
-html {
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--primary);
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-/* header section --------- */
-
-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 3em;
-    padding: 1em;
-    border-bottom:var(--dark_blue) 5px solid;
-}
-header img {
-    width: 300px;
-    
-}
-
-.link a {
-    text-decoration: none;
-    color:black;
-    border: 2px black solid;
-    border-radius: 2em;
-    padding: .8em;
-}
-
-.home {
-    font-weight: 1000;
-    
-}
-
-.link a:hover {
-    background-color: black;
-    color: var(--primary);
-}
 
 /* Top section ----------- */
 
@@ -131,27 +81,6 @@ header img {
     width: 350px;
 }
 
-footer {
-    border-top: var(--dark_blue) solid 5px;
-    margin-top: 3em;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.left_footer {
-    display: flex;
-    flex-direction: column;
-}
-
-.left_footer img {
-    width: 300px;
-    padding: .5em;
-}
-
-
-.right_footer {
-    
-}
 
 @media (max-width: 900px) {
     .NC_logo {

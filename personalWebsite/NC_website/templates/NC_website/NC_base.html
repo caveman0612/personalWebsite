@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% block head %}
+
+    {% endblock %}
+    
+</head>
+<body>
+
+    <header>
+        <a href="/NC_website/" class="NC_logo">
+            {%load static %} <img src={% static "NC_website/media/NC_Logo2.jpg" %} alt="northern cycle logo">
+        </a>
+        <div class="link home">
+            <a href="/NC_website/">Home</a>
+        </div>
+        <div class="link">
+            <a href="/NC_website/rentals/">Rental</a>
+        </div>
+        <div class="link">
+            <a href="/NC_website/">Services</a>
+        </div>
+        <div class="link">
+            <a href="/NC_website/">Events</a>
+        </div>
+        <div class="link">
+            <a href="/NC_website/">Contact</a>
+        </div>
+    </header>
+    
+    {% block body %}
+
+    {% endblock%}
+
+    <footer>
+        <div class="left_footer">
+            <div class="facebook_img">
+                <a href="https://www.facebook.com/Northern-Cycle-408908525871199/">
+                    {% load static %}
+                    <img src={% static "NC_website/media/fbicon.jpg" %} alt="facebook logo">
+                </a>
+                
+            </div>
+            <div class="trek_img">
+                <a href="https://www.trekbikes.com/us/en_US/">
+                    {% load static %}
+                    <img src={% static "NC_website/media/Trek_logo_horizontal_red_black_2015.jpg" %} alt="Trek logo">
+                </a>
+                
+            </div>
+            <div class="electra_img">
+                <a href="https://electra.trekbikes.com/us/en_US/">
+                    {% load static %}
+                    <img src={% static "NC_website/media/ElectraLogo2.png" %} alt="electra logo">
+                </a>
+                
+            </div>
+        </div>
+        <div class="right_footer">
+            <h1>Related Resources</h1>
+            <ul>
+                <li>
+                    <a href="http://itascatur.org/">Itascatur Outdoor Activity Club</a>
+                </li>
+                <li>
+                    <a href="https://detroitmountain.com/">Detroit Mountain Activity Area</a>
+                </li>
+                <li>
+                    <a href="https://www.cuyunalakesmtb.com/">Cuyuna Lakes Mountain Bike Club</a>
+                </li>
+                <li>
+                    <a href="http://www.bikebemidji.com/">Bemidji Area Biking</a>
+                </li>
+                <li>
+                    <a href="https://www.paulbunyantrail.com/">Paul Bunyan Trail</a>
+                </li>
+                <li>
+                    <a href="https://mntrails.com/poi/heartland-trail">Heartland Trail</a>
+                </li>
+                <li>
+                    <a href="https://www.peopleforbikes.org/">Bikes Belong</a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+</html>

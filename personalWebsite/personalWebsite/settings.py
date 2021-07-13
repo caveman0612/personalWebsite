@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-from personalWebsite import password
+from personalWebsite.passwords import password
 SECRET_KEY = password
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'NC_website.apps.NcWebsiteConfig'
+    'NC_website.apps.NcWebsiteConfig',
+    'landing_page.apps.LandingPageConfig'
 ]
 
 MIDDLEWARE = [
