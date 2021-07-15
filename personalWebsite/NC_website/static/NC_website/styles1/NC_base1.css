@@ -27,7 +27,7 @@ header {
 }
 
 header img {
-    width: 250rem;
+    width: 25rem;
 }
 
 
@@ -49,3 +49,13 @@ header img {
         display: none;
     }
 }  
+
+
+/* footer section  */
+
+footer {
+    margin-top: 3em;
+    padding: 3em;
+    border-top: var(--dark_blue) 5px solid;
+    display: flex;
+}
