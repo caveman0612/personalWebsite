@@ -119,3 +119,21 @@
 }
 
 
+
+.top_section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.top_section img {
+    border-radius: 6em;
+    width: 50rem;
+}
+
+.outer_right_box {
+    border: var(--dark_blue) 5px solid;
+    padding: 2em;
+    border-radius: 3em;
+}

@@ -19,23 +19,21 @@
         <a href="/NC_website/" class="NC_logo">
             {%load static %} <img src={% static "NC_website/media/NC_Logo2.jpg" %} alt="northern cycle logo">
         </a>
-        <nav>
-            <div class="link home">
-                <a href="/NC_website/" class="home">Home</a>
-            </div>
-            <div class="link rental">
-                <a href="/NC_website/rentals/" class="rental">Rental</a>
-            </div>
-            <div class="link services">
-                <a href="/NC_website/services" class="services">Services</a>
-            </div>
-            <div class="link events">
-                <a href="/NC_website/events" class="events">Events</a>
-            </div>
-            <div class="link contact">
-                <a href="/NC_website/contact" class="contract">Contact</a>
-            </div>
-        </nav>
+        <div class="link home">
+            <a href="/NC_website/" class="home">Home</a>
+        </div>
+        <div class="link rental">
+            <a href="/NC_website/rentals/" class="rental">Rental</a>
+        </div>
+        <div class="link services">
+            <a href="/NC_website/services" class="services">Services</a>
+        </div>
+        <div class="link events">
+            <a href="/NC_website/events" class="events">Events</a>
+        </div>
+        <div class="link contact">
+            <a href="/NC_website/contact" class="contract">Contact</a>
+        </div>
     </header>
     
     {% block body %}

@@ -19,20 +19,17 @@ body {
 
 header {
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     border-bottom: var(--dark_blue) 5px solid;
     padding: 1rem;
-}
-
-header nav {
-    display: flex;
-    justify-content:space-around;
-    background-color: blue;
+    height: 2em;
 }
 
 header img {
-    width: 25rem;
+    width: 250rem;
 }
+
 
 .link a {
     text-decoration: none;
@@ -48,5 +45,7 @@ header img {
 }
 
 @media (max-width: 900px) {
-    
-}
+    header img {
+        display: none;
+    }
+}  
