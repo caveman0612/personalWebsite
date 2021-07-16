@@ -58,4 +58,43 @@ footer {
     padding: 3em;
     border-top: var(--dark_blue) 5px solid;
     display: flex;
+    justify-content: center;
+}
+
+.left_footer {
+    margin-right: 6em;
+}
+
+.facebook_img img{
+    width: 300px;
+    height: 90px;
+    object-fit: cover;
+    object-position: 50% 55%;
+}
+
+.trek_img img{
+    width: 300px;
+    height: 90px;
+    margin-top: 1em;
+}
+
+.electra_img img {
+    width: 300px;
+    height: 90px;
+    margin-top: 1em;
+}
+
+.right_footer li {
+    margin-bottom: .5em;
+}
+
+@media (max-width: 900px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left_footer {
+        margin-right:0;
+    }
 }
