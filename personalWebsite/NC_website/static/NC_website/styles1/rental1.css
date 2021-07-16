@@ -1,0 +1,90 @@
+.top_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 5em;
+    margin-top: 5em;
+    border: var(--dark_blue) 3px solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    border-radius: 3em;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  
+  .rental_description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .rental_description p {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .rental_rates {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 3em;
+    padding: 2em;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .rental_box {
+    border: solid var(--dark_blue) 3px;
+    padding: 0 1em;
+    border-radius: 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 150px;
+    margin: 0 auto;
+  }
+  
+  .rental_box h2 {
+    text-align: center;
+    margin-bottom: .2em;
+  }
+  
+  .rental_box p {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  .bottom_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .bottom_section img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+  }

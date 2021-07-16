@@ -35,7 +35,6 @@
 
 .rental_description p {
   margin: 0;
-  width: 800px;
   text-align: center;
 }
 
@@ -91,30 +90,5 @@
 }
 
 
-@media (max-width: 900px) {
-  .NC_logo {
-    display: none;
-  }
-  footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .rental_description p {
-    width: auto;
-  }
-}
 
-@media (max-width: 1300px) {
-  .rental_description p {
-    width: 400px;
-  }
-}
 /*# sourceMappingURL=rentals.css.map */

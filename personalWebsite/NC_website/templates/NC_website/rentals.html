@@ -3,7 +3,7 @@
 {% block head %}
 
 {% load static %}
-    <link rel="stylesheet" href="{% static "NC_website/styles/rentals.css" %}">
+    <link rel="stylesheet" href="{% static "NC_website/styles1/rental1.css" %}">
     <title>Rental</title>
 
 {% endblock %}
@@ -53,7 +53,8 @@
     </div>
 
     <div class="bottom_section">
-        <img src="../images/PaulBunyanHeartlandTrail.jpg" alt="Paul Bunyan Heart and Trail">
+        {% load static %}
+        <img src={% static "NC_website/media/PaulBunyanHeartlandTrail.jpg" %} alt="Paul Bunyan Heart and Trail">
     </div>
 
 {% endblock %}
