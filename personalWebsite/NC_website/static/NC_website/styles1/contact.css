@@ -1,0 +1,63 @@
+:root {
+  --primary: #dddddd;
+  --dark: #333;
+  --light: #fff;
+  --dark_blue: #003A99;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.5);
+}
+
+.contact {
+  font-weight: bold;
+}
+
+.top_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.large_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 3em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.large_box iframe {
+  margin-top: 3em;
+}
+
+.word_box {
+  border: var(--dark_blue) 3px solid;
+  height: 20em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 3em;
+  border-radius: 3em;
+  width: 20em;
+}
+
+.word_box h1 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+/*# sourceMappingURL=contact.css.map */
